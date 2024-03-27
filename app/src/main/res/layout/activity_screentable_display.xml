@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#000"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    >
+
+    <TableLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="470dp">
+
+        <FrameLayout
+            android:layout_height="50dp"
+            android:layout_marginTop="3dp">
+
+            <TableRow
+                android:layout_width="336dp"
+                android:layout_height="83dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp">
+
+                <Button
+                    android:id="@+id/bw1"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="移居"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw2"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="壽年"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw3"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="求財"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw4"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="脫貨"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw5"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="收成"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw6"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="置產"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw7"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="陞遷"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw8"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="right"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="晴雨"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+            </TableRow>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@drawable/shape_line"
+            android:gravity="center_vertical|center_horizontal"
+            android:layerType="software"
+            android:textSize="5sp"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:layout_height="50dp"
+            android:layout_marginTop="3dp">
+
+            <TableRow
+                android:layout_width="336dp"
+                android:layout_height="83dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp">
+
+                <Button
+                    android:id="@+id/bw9"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="分家"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw10"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="行人"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw11"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="放賬"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw12"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="生意"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw13"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="夜夢"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw14"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="官運"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw15"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="六甲"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw16"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="right"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="運途"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+            </TableRow>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@drawable/shape_line"
+            android:gravity="center_vertical|center_horizontal"
+            android:layerType="software"
+            android:textSize="5sp"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:layout_height="50dp"
+            android:layout_marginTop="3dp">
+
+            <TableRow
+                android:layout_width="336dp"
+                android:layout_height="83dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp">
+
+                <Button
+                    android:id="@+id/bw17"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="身體"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw18"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="學藝"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw19"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="風水"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw20"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="文件"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw21"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="同居"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw22"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="工作"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw23"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="交易"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw24"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="right"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="求醫"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+            </TableRow>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@drawable/shape_line"
+            android:gravity="center_vertical|center_horizontal"
+            android:layerType="software"
+            android:textSize="5sp"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:layout_height="50dp"
+            android:layout_marginTop="3dp">
+
+            <TableRow
+                android:layout_width="336dp"
+                android:layout_height="83dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp">
+
+                <Button
+                    android:id="@+id/bw25"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="親病"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw26"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="失物"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw27"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="開店"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw28"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="收帳"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw29"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="出行"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw30"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="告狀"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw31"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="調解"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw32"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="right"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="取討"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+            </TableRow>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@drawable/shape_line"
+            android:gravity="center_vertical|center_horizontal"
+            android:layerType="software"
+            android:textSize="5sp"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:layout_height="50dp"
+            android:layout_marginTop="3dp">
+
+            <TableRow
+                android:layout_width="336dp"
+                android:layout_height="83dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp">
+
+                <Button
+                    android:id="@+id/bw33"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="買屋"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw34"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="走失"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw35"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="回鄉"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw36"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="修宅"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw37"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="桃花"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw38"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="買貨"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw39"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="婚姻"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw40"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="right"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="姻緣"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+            </TableRow>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@drawable/shape_line"
+            android:gravity="center_vertical|center_horizontal"
+            android:layerType="software"
+            android:textSize="5sp"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:layout_height="50dp"
+            android:layout_marginTop="3dp">
+
+            <TableRow
+                android:layout_width="336dp"
+                android:layout_height="83dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp">
+
+                <Button
+                    android:id="@+id/bw41"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="求職"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw42"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text=" 合夥"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw43"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="買畜"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw44"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="飼養"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw45"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="求子"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw46"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="納吏"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw47"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="選舉"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw48"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="right"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="學業"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+            </TableRow>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@drawable/shape_line"
+            android:gravity="center_vertical|center_horizontal"
+            android:layerType="software"
+            android:textSize="5sp"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:layout_height="50dp"
+            android:layout_marginTop="3dp">
+
+            <TableRow
+                android:layout_width="336dp"
+                android:layout_height="83dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp">
+
+                <Button
+                    android:id="@+id/bw49"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="子病"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw50"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="護送"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw51"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="賭博"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw52"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="訴狀"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw53"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="口舌"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw54"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="徵人"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw55"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="娶妻"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw56"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="right"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="公職"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+            </TableRow>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@drawable/shape_line"
+            android:gravity="center_vertical|center_horizontal"
+            android:layerType="software"
+            android:textSize="5sp"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:layout_height="50dp"
+            android:layout_marginTop="3dp">
+
+            <TableRow
+                android:layout_width="336dp"
+                android:layout_height="83dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp">
+
+                <Button
+                    android:id="@+id/bw57"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="洽約"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw58"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="家宅"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw59"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="借財"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw60"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="見貴"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw61"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="住宿"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw62"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="音信"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw63"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="尋人"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+
+                <Button
+                    android:id="@+id/bw64"
+                    android:layout_width="40dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="right"
+                    android:background="@drawable/shape_oval"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="考運"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,InvalidId"></Button>
+            </TableRow>
+        </FrameLayout>
+    </TableLayout>
+    <Button
+        android:id="@+id/btn_screentable_entry"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:background="#7AC00E"
+        android:layout_marginTop="40dp"
+        android:text="★使用測字神卦占卜★"
+        android:textAlignment="gravity"
+        android:textColor="#0000CD"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+</LinearLayout>

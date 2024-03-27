@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HeavenAndEarth"
+    android:id="@+id/heaearth_layout"
+    android:background="@drawable/chinaview3"
+    >
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="410dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="40dp"
+        android:background="#f4c2defd"
+        android:fontFamily="sans-serif-condensed"
+        android:maxLines="20"
+        android:paddingTop="15dp"
+        android:scrollbars="vertical"
+        android:text="測字神卦占卜"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="80px"
+        android:textStyle="bold" />
+
+    <NumberPicker
+        android:id="@+id/Picker1"
+        android:layout_width="wrap_content"
+        android:layout_height="105dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="170dp"
+        android:orientation="vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:theme="@style/NumberPickerText"
+        >
+
+    </NumberPicker>
+
+    <TextView
+        android:id="@+id/tvw_sky"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="55dp"
+        android:text="天元"
+        android:textSize="20dp"
+        />
+
+    <NumberPicker
+        android:id="@+id/picker2"
+        android:layout_width="wrap_content"
+        android:layout_height="105dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="170dp"
+        android:orientation="vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:theme="@style/NumberPickerText"
+        >
+    </NumberPicker>
+
+    <TextView
+        android:id="@+id/tvw_land"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="135dp"
+        android:text="地元"
+        android:textSize="20dp"
+        />
+
+    <NumberPicker
+        android:id="@+id/picker3"
+        android:layout_width="wrap_content"
+        android:layout_height="105dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="170dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:theme="@style/NumberPickerText"
+        >
+    </NumberPicker>
+
+    <TextView
+        android:id="@+id/tvw_person"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="215dp"
+        android:text="人元"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn_entry"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="15dp"
+        android:textColor="#FFD700"
+        android:text="選擇確定"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="115dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/btn_return_main"
+        android:layout_width="129dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="400dp"
+        android:background="#7B68EE"
+        android:text="返回主頁"
+        android:textAlignment="gravity"
+        android:textColor="#FF3030"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvw_teacher"
+        android:layout_width="225dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="sans-serif-condensed"
+        android:paddingBottom="15dp"
+        android:text="星靈開運命占館-劉衿杉老師監製"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+</android.support.design.widget.CoordinatorLayout>

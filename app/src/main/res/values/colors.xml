@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorAccent3">#FF359A</color>
+    <color name="green">#00FF00</color>
+    <color name="RedHere">#FF4D40</color>
+    <color name="colorYellowdark">#ffea00</color>
+    <color name="ColorWhite">#FFFF</color>
+    <color name="diverBlue">#7FFFD4</color>
+    <color name="warmgreen">#00FF80</color>
+    <color name="RedhotPixel">#FF4D00</color>
+    <color name="darknight">#000</color>
+    <color name="OperaLimo">#b7ff00</color>
+    <color name="Cerise">#7331de</color>
+    <color name="MintCream">#F5FFFA</color>
+</resources>

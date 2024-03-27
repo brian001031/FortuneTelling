@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/table_textletter"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#000"
+    android:layout_marginTop="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <TableLayout
+        android:id="@+id/selectedlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp">
+
+            <TableRow
+                android:layout_width="336dp"
+                android:layout_height="89dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+            </TableRow>
+        </FrameLayout>
+    </TableLayout>
+</LinearLayout>

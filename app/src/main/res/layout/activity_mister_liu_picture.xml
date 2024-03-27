@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mister_liu_picture">
+
+    <ImageView
+        android:id="@+id/img_barcodeLiu"
+        android:layout_width="290dp"
+        android:layout_height="308dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/wechartliu"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:id="@+id/tvw_teacher"
+        android:layout_width="240dp"
+        android:layout_height="178dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="219dp"
+        android:fontFamily="sans-serif-condensed"
+        android:paddingLeft="20dp"
+        android:singleLine="false"
+        android:text="劉衿杉老師監製 /微信ID:t0930000985 /口  令:668 /"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_return_from_Liu"
+        android:layout_width="129dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="578dp"
+        android:background="#7B68EE"
+        android:text="返回主頁"
+        android:textAlignment="gravity"
+        android:textColor="#FF3030"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
